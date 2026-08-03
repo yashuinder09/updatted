@@ -1,0 +1,690 @@
+body{
+    background-color:rgb(219, 9, 37);;
+}
+
+.nav-bar{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: rgb(219, 9, 37);
+
+}
+.nav-bar img{
+    height: 70px;
+    margin: 10px;
+}
+.nav-bar h2{
+    font-style: oblique;
+    margin: 10px;
+}
+
+.nav-bar a{
+    display: flex;
+    justify-content: end;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: auto;
+    font-size: 18px;
+    font-style: oblique;
+
+
+}
+
+.hero-section{
+    border-radius: 10px;
+    margin: 10px;
+    height:700px;
+    background-image:url(/hottie/static/images/sexy-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+
+}
+.hero-section h1 , h2{
+    color: white;
+    font-size: xx-large;
+}
+
+.hero-section h2{
+    font-style: italic;
+    margin-top: 30px;
+}
+.hero-section h1{
+    font-style: italic;
+
+}
+.hero-btn{
+    -bottom:solid 5px rgb(219, 9, 37);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+#btn-call-us{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(24, 175, 235);
+    border: none;
+    
+    color: white;
+    font-style: oblique;
+    font-size: x-large;
+    
+}
+#btn-wathsapp{
+    background-color:rgb(219, 9, 37);;
+    border: none;
+    
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-style: oblique;
+    font-size: x-large;
+    
+
+}
+
+.about-grugram{
+    background-color: pink;
+    border-radius: 10px;
+    margin: 10px;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media(max-width:768px){
+    .about-grugram{
+        
+    }
+}
+.about-grugram h1{
+    font-style: oblique;
+    border-bottom:solid 5px rgb(219, 9, 37);
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.about-grugram h3{
+    font-style: oblique;
+}
+.about-grugram p{
+    font-style: italic;
+}
+
+/* Hero-home */
+
+.hero-home{
+    border: dashed gray 2px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hero-home-img{
+    height: 600px;
+    margin: 50px;
+
+
+}
+.hero-home-img img{
+    height: 600px;
+    object-fit: fill;
+    border-radius: 20px;
+
+}
+#hero-home-h1{
+    color: white;
+    font-style: oblique;
+}
+.hero-home h3{
+    font-style: oblique;
+    color: rgb(189, 12, 86);
+}
+.hero-home p{
+    font-style: oblique;
+    color: white;
+    font-size: 20px;
+}
+
+.hero-home-footer{
+    background-color:rgb(189, 12, 86);
+    color: white;
+    font-style: italic;
+    border: 15px white outset;
+    border-top-width: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.hero-home-footer button{
+    width: 200px;
+    height: 100px;
+    margin:10px;
+    border: none;
+    border-radius: 10px;
+
+    font-size: xx-large;
+    background-color: green;
+    color: white;
+
+
+}
+
+.P-home-box{
+
+    display: grid;
+    place-items: center;
+    padding: 10px;
+
+
+}
+
+/* Home box cards */
+.hero-home-box{
+    background-color:rgb(189, 12, 86);
+    margin: 20px;
+    height: 200px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+.hero-home-box img{
+    object-fit: cover;
+    height: 70px;
+    margin: 10px;
+}
+.hero-home-box h1{
+    color: white;
+    font-style: oblique;
+
+}
+
+
+.hero-home-2 h1{
+    color:white;
+    font-style: italic;
+    font-size: xx-large;
+}
+.hero-home-2 p{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#pink-p{
+    color:pink;
+}
+.hero-home-2 img{
+    border-radius: 30px;
+
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+}
+.girls-2{
+
+
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 20px;
+
+
+}
+.girls-product{
+    
+    height: fit-content;
+    text-decoration: none;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 10px white;
+    border-style: outset;
+
+    box-shadow: 0 0 30px ;
+    
+
+}
+a{
+    text-decoration: none;
+}
+/* Girls-Images */
+.gpb-1,
+.gpb-2,
+.gpb-3,
+.gpb-4,
+.gpb-5,
+.gpb-6,
+.gpb-7,
+.gpb-8,
+.gpb-9,
+.gpb-10,
+.gpb-11,
+.gpb-12,
+.gpb-13,
+.gpb-14,
+.gpb-15,
+.gpb-16,
+.gpb-17,
+.gpb-18,
+.gpb-19,
+.gpb-20,
+.gpb-21,
+.gpb-22,
+.gpb-23,
+.gpb-24,
+.gpb-25,
+.gpb-26,
+.gpb-27,
+.gpb-28,
+.gpb-29,
+.gpb-30,
+.gpb-31,
+.gpb-32,
+.gpb-33,
+.gpb-34,
+.gpb-35,
+.gpb-36,
+.gpb-37,
+.gpb-38,
+.gpb-39,
+.gpb-40,
+.gpb-41,
+.gpb-42,
+.gpb-43,
+.gpb-44,
+.gpb-45,
+.gpb-46,
+.gpb-47,
+.gpb-48,
+.gpb-49,
+.gpb-50{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gpb-1{background-image: url(/hottie/static/images/girls/section-1/product-1.png);}
+.gpb-2{background-image: url(/hottie/static/images/girls/section-1/product-2.png);}
+.gpb-3{background-image: url(/hottie/static/images/girls/section-1/product-3.png);}
+.gpb-4{background-image: url(/hottie/static/images/girls/section-1/product-4.png);}
+.gpb-5{background-image: url(/hottie/static/images/girls/section-1/product-5.png);}
+.gpb-6{background-image: url(/hottie/static/images/girls/section-1/product-6.png);}
+.gpb-7{background-image: url(/hottie/static/images/girls/section-1/product-7.png);}
+.gpb-8{background-image: url(/hottie/static/images/girls/section-1/product-8.png);}
+.gpb-9{background-image: url(/hottie/static/images/girls/section-1/product-9.png);}
+.gpb-10{background-image: url(/hottie/static/images/girls/section-1/product-10.png);}
+
+.gpb-11{background-image: url(/hottie/static/images/girls/section-2/girl-1.jpeg);}
+.gpb-12{background-image: url(/hottie/static/images/girls/section-2/girl-2.jpeg);}
+.gpb-13{background-image: url(/hottie/static/images/girls/section-2/girl-3.jpeg);}
+.gpb-14{background-image: url(/hottie/static/images/girls/section-2/girl-4.jpeg);}
+.gpb-15{background-image: url(/hottie/static/images/girls/section-2/girl-5.jpeg);}
+.gpb-16{background-image: url(/hottie/static/images/girls/section-2/girl-5.jpeg);}
+.gpb-17{background-image: url(/hottie/static/images/girls/section-2/girl-7.webp);}
+.gpb-18{background-image: url(/hottie/static/images/girls/section-2/girl-8.webp);}
+.gpb-19{background-image: url(/hottie/static/images/girls/section-2/girl-9.webp);}
+.gpb-20{background-image: url(/hottie/static/images/girls/section-2/girl-10.webp);}
+
+
+.gpb-21{background-image: url(/hottie/static/Images//girls/section-3/girl-1.webp);}
+.gpb-22{background-image: url(/hottie/static/Images//girls/section-3/girl-2.webp);}
+.gpb-23{background-image: url(/hottie/static/Images//girls/section-3/girl-3.webp);}
+.gpb-24{background-image: url(/hottie/static/Images//girls/section-3/girl-4.webp);}
+.gpb-25{background-image: url(/hottie/static/Images//girls/section-3/girl-5.webp);}
+.gpb-26{background-image: url(/hottie/static/Images//girls/section-3/girl-6.webp);}
+.gpb-27{background-image: url(/static/Images//girls/section-3/girl-7.webp);}
+.gpb-28{background-image: url(/static/Images//girls/section-3/girl-8.webp);}
+.gpb-29{background-image: url(/static/Images//girls/section-3/girl-9.webp);}
+.gpb-30{background-image: url(/static/Images//girls/section-3/girl-10.webp);}
+
+.gpb-31{background-image: url(/static/Images//girls/section-4/girl-1.webp);}
+.gpb-32{background-image: url(/static/Images//girls/section-4/girl-2.webp);}
+.gpb-33{background-image: url(/static/Images//girls/section-4/girl-3.webp);}
+.gpb-34{background-image: url(/static/Images//girls/section-4/girl-4.webp);}
+.gpb-35{background-image: url(/static/Images//girls/section-4/girl-5.webp);}
+.gpb-36{background-image: url(/static/Images//girls/section-4/girl-6.jpg);}
+.gpb-37{background-image: url(/static/Images//girls/section-4/girl-7.webp);}
+.gpb-38{background-image: url(/static/Images//girls/section-4/girl-8.webp);}
+.gpb-39{background-image: url(/static/Images//girls/section-4/girl-9.webp);}
+.gpb-40{background-image: url(/static/Images//girls/section-4/girl-10.webp);}
+
+
+.gpb-41{background-image: url(/static/Images//girls/section-5/girl-1.webp);}
+.gpb-42{background-image: url(/static/Images//girls/section-5/girl-2.jpg);}
+.gpb-43{background-image: url(/static/Images//girls/section-5/girl-3.webp);}
+.gpb-44{background-image: url(/static/Images//girls/section-5/girl-4.webp);}
+.gpb-45{background-image: url(/static/Images//girls/section-5/girl-5.webp);}
+.gpb-46{background-image: url(/static/Images//girls/section-5/girl-6.jpg);}
+.gpb-47{background-image: url(/static/Images//girls/section-5/girl-7.webp);}
+.gpb-48{background-image: url(/static/Images//girls/section-5/girl-8.webp);}
+.gpb-49{background-image: url(/static/Images//girls/section-5/girl-9.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gpb-50{
+    background-image: url(/static/Images//girls/section-5/girl-10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.hero-home-3{
+
+    text-align: center;
+    font-style: oblique;
+
+    margin: 10px;
+    padding: 10px;
+}
+.hero-home-3 h1{
+    color: white;
+    font-style: italic;
+    font-size: xxx-large;
+}
+.hero-home-3 b{
+    color:black;
+}
+
+
+.girls-product:hover{
+    transform: scale(1.02);
+}
+
+.girls-product h1{
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+}
+.product-footer{
+    margin-top: 80%;
+    background-color: rgba(0, 0, 0, 0.432);
+
+    border-bottom: 5px yellow solid;
+    border-radius: 20px;
+}
+.product-footer img{
+    height: 40px;
+    margin: 10px;
+}
+
+
+
+.buttom img{
+
+    height: 500px;
+    margin: 10px;
+    border-radius: 18px;
+}
+
+.footer{
+    background-color: rgb(189, 12, 86);
+
+    margin: 10px;
+    padding: 5px;
+   border: 5px white outset;
+   display: grid;
+   place-items: center;
+
+}
+.footer img{
+    border: none;
+    height: 150px;
+    margin: 5px;
+    object-fit: cover;
+
+}
+.footer h1{
+    font-size: xx-large;
+    color:white;
+    font-style: oblique;
+}
+.footer button{
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    background-color:green;
+    font-size: x-large;
+}
+.Zone-Info{
+    border:10px outset black;
+    display: grid;
+    border-radius: 20px;
+
+    justify-items: center;
+    padding:10px;
+    margin:30px;
+
+
+
+}
+#Zone-info-p-1{
+    color:violet;
+    font-size: xx-large;
+}
+#Zone-info-p-2{
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+
+
+}
+.Zone-Info button{
+    width: 200px ;
+    padding:35px;
+    
+    margin:20px;
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+
+
+}
+.Zone-Info button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(219, 9, 37);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 30px 20px 15px;
+    color: white;
+}
+
+header h1 {
+
+}
+
+/* Main Heading */
+h2 {
+    color: white;
+    font-size: clamp(24px, 4vw, 42px);
+    margin: 15px 10px;
+    line-height: 1.3;
+}
+
+h3 {
+    color: white;
+    font-size: clamp(20px, 3vw, 34px);
+    margin: 10px;
+}
+
+/* Location Buttons Container */
+
+.areas{
+    border: 2px solid;
+    font-size:160%;
+}
+.place-btn {
+    width: min(1200px, 95%);
+    margin: 30px auto;
+    border:2px solid pink;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+/* Button Link */
+.place-btn a {
+    text-decoration: none;
+    display: block;
+}
+
+/* Buttons */
+.place-btn button {
+    width: 100%;
+    min-height: 90px;
+    padding: 15px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: aqua;
+    color: #111;
+
+    font-size: clamp(16px, 2vw, 22px);
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.25s ease;
+}
+
+.place-btn button:hover {
+    transform: translateY(-5px);
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+    .place-btn {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .place-btn button {
+        min-height: 85px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px 10px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    .place-btn {
+        width: 92%;
+        margin: 25px auto;
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .place-btn button {
+        min-height: 75px;
+        padding: 10px;
+
+        border-radius: 15px;
+        font-size: 16px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 380px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .place-btn {
+        width: 94%;
+        grid-template-columns: 1fr 1fr;
+        gap: 9px;
+    }
+
+    .place-btn button {
+        min-height: 70px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+}
