@@ -37,7 +37,7 @@ body{
     border-radius: 10px;
     margin: 10px;
     height:700px;
-    background-image:url(/hottie/static/images/sexy-2.jpg);
+    background-image:url(/hottie-workspace/main-website-edit/static/images/sexy-2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,9 +109,7 @@ body{
     text-align: center;
 }
 @media(max-width:768px){
-    .about-grugram{
-        
-    }
+    
 }
 .about-grugram h1{
     font-style: oblique;
