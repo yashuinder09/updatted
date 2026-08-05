@@ -50,6 +50,7 @@
 
     .girls-2 {
         grid-template-columns: repeat(2, 1fr);
+        
     }
 
     .hero-section h1 {
