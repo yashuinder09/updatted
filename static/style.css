@@ -37,7 +37,7 @@ body{
     border-radius: 10px;
     margin: 10px;
     height:700px;
-    background-image:url(/hottie-workspace/main-website-edit/static/images/sexy-2.jpg);
+    background-image:url(static/images/sexy-2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -323,16 +323,16 @@ a{
     background-repeat: no-repeat;
 
 }
-.gpb-1{background-image: url(/hottie/static/images/girls/section-1/product-1.png);}
-.gpb-2{background-image: url(/hottie/static/images/girls/section-1/product-2.png);}
-.gpb-3{background-image: url(/hottie/static/images/girls/section-1/product-3.png);}
-.gpb-4{background-image: url(/hottie/static/images/girls/section-1/product-4.png);}
-.gpb-5{background-image: url(/hottie/static/images/girls/section-1/product-5.png);}
-.gpb-6{background-image: url(/hottie/static/images/girls/section-1/product-6.png);}
-.gpb-7{background-image: url(/hottie/static/images/girls/section-1/product-7.png);}
-.gpb-8{background-image: url(/hottie/static/images/girls/section-1/product-8.png);}
-.gpb-9{background-image: url(/hottie/static/images/girls/section-1/product-9.png);}
-.gpb-10{background-image: url(/hottie/static/images/girls/section-1/product-10.png);}
+.gpb-1{background-image: url(static/images/girls/section-1/product-1.png);}
+.gpb-2{background-image: url(static/images/girls/section-1/product-2.png);}
+.gpb-3{background-image: url(static/images/girls/section-1/product-3.png);}
+.gpb-4{background-image: url(static/images/girls/section-1/product-4.png);}
+.gpb-5{background-image: url(static/images/girls/section-1/product-5.png);}
+.gpb-6{background-image: url(static/images/girls/section-1/product-6.png);}
+.gpb-7{background-image: url(static/images/girls/section-1/product-7.png);}
+.gpb-8{background-image: url(static/images/girls/section-1/product-8.png);}
+.gpb-9{background-image: url(static/images/girls/section-1/product-9.png);}
+.gpb-10{background-image: url(static/images/girls/section-1/product-10.png);}
 
 .gpb-11{background-image: url(/hottie/static/images/girls/section-2/girl-1.jpeg);}
 .gpb-12{background-image: url(/hottie/static/images/girls/section-2/girl-2.jpeg);}
